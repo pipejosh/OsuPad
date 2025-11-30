@@ -98,7 +98,7 @@
 	(footprint "ScottoKeebs_Components:OLED_128x32"
 		(layer "F.Cu")
 		(uuid "1fadefea-c690-48b2-8644-07be18bc28b6")
-		(at 69.8375 49.73125)
+		(at 72.4 48.28)
 		(property "Reference" "J1"
 			(at 7.75 10 0)
 			(layer "F.SilkS")
@@ -295,7 +295,7 @@
 			(uuid "ce423cef-e2eb-4de9-8416-03c7d3aac2ec")
 		)
 		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/OLED_128x32.step"
+		(model "${COTTKEBBS}/ScottoKeebs_Components.3dshapes/OLED_128x32.step"
 			(offset
 				(xyz 19 -6 2.5)
 			)
@@ -618,7 +618,7 @@
 			(uuid "d92afbeb-253d-469a-bd73-5f4f23b9d536")
 		)
 		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+		(model "${COTTKEBBS}/ScottoKeebs_MX.3dshapes/MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -941,7 +941,7 @@
 			(uuid "eb180d47-9905-414d-8783-7b8b39a98519")
 		)
 		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+		(model "${COTTKEBBS}/ScottoKeebs_MX.3dshapes/MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1264,7 +1264,7 @@
 			(uuid "783c5892-86ef-4b83-ab0b-44a55a079c70")
 		)
 		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+		(model "${COTTKEBBS}/ScottoKeebs_MX.3dshapes/MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1652,7 +1652,7 @@
 			(uuid "e2231cd1-f9db-4c62-b8ab-f585aa72d1fc")
 		)
 		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MCU.3dshapes/Seeed_XIAO_RP2040.step"
+		(model "${COTTKEBBS}/ScottoKeebs_MCU.3dshapes/Seeed_XIAO_RP2040.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1892,7 +1892,7 @@
 			(uuid "ba57dbde-2cda-44f9-a474-81aef18db311")
 		)
 		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${COTTKEBBS}/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2132,7 +2132,7 @@
 			(uuid "d7195bc3-77d2-4d6b-9b31-d5e899179188")
 		)
 		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${COTTKEBBS}/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2372,7 +2372,7 @@
 			(uuid "78574387-c6d9-4228-99c6-b28fea5c1445")
 		)
 		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${COTTKEBBS}/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2384,16 +2384,60 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 42.8625 40.48125)
-		(end 109.5375 88.10625)
+	(gr_circle
+		(center 40 45)
+		(end 40 46.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "180f4748-33da-46ca-8666-93066b64ef0e")
+		(uuid "5469ac91-9e8f-49ae-9f73-47742045cf1c")
+	)
+	(gr_circle
+		(center 115 45)
+		(end 115 46.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "66ca2c88-0ba3-4628-b95a-bd9312452515")
+	)
+	(gr_rect
+		(start 35 40)
+		(end 120 90)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "78cf3384-3679-4399-80e0-f4d94f1667b6")
+	)
+	(gr_circle
+		(center 40 85)
+		(end 40 86.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "a4fbc4f4-3d0a-426d-b20d-fb64275496ea")
+	)
+	(gr_circle
+		(center 115 85)
+		(end 115 86.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "acd92ed6-e8e3-439c-bae5-032524b2b3da")
 	)
 	(segment
 		(start 107.15625 66.675)
@@ -2444,12 +2488,12 @@
 		(uuid "72f4f3cb-fdd4-4af5-a3fe-176a9b974f62")
 	)
 	(segment
-		(start 71.4375 59.53125)
-		(end 69.05625 61.9125)
+		(start 72.88875 58.08)
+		(end 74 58.08)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "824d111c-79b6-43e9-9d51-66e200211a42")
+		(uuid "7c05f2c1-e02b-4816-aa7e-85fc2a08e802")
 	)
 	(segment
 		(start 104.775 80.9625)
@@ -2458,6 +2502,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "b51ec8d6-3a70-4258-84f4-ba99b16edd7a")
+	)
+	(segment
+		(start 69.05625 61.9125)
+		(end 72.88875 58.08)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "cadb23bc-7109-40d1-9924-866f7e0f0a1c")
 	)
 	(segment
 		(start 68.65525 52.61775)
@@ -2565,6 +2617,14 @@
 	)
 	(segment
 		(start 71.4375 56.99125)
+		(end 72.54875 56.99125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "2931cd81-84a4-42bf-9ec6-439a76a93679")
+	)
+	(segment
+		(start 71.4375 56.99125)
 		(end 69.05625 54.61)
 		(width 0.2)
 		(layer "F.Cu")
@@ -2586,6 +2646,14 @@
 		(layer "F.Cu")
 		(net 10)
 		(uuid "b7c1b234-8078-4ef1-b626-479915c468c9")
+	)
+	(segment
+		(start 72.54875 56.99125)
+		(end 74 55.54)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "e6ae0ff5-db4c-4b92-8213-d2a0c082b228")
 	)
 	(segment
 		(start 69.45725 52.471)
@@ -2610,6 +2678,22 @@
 		(layer "F.Cu")
 		(net 11)
 		(uuid "974cdf4d-1971-4959-b31c-2caa370e424d")
+	)
+	(segment
+		(start 72.54875 54.45125)
+		(end 74 53)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "a4fddc99-33ce-46ae-8d49-20f0f0648123")
+	)
+	(segment
+		(start 71.4375 54.45125)
+		(end 72.54875 54.45125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "aa296fea-f25c-4c69-aa2c-c3d13e0f4cb9")
 	)
 	(segment
 		(start 69.05625 45.24375)
@@ -2652,6 +2736,14 @@
 		(uuid "3854e8aa-d5a3-4dff-a7f2-9fda93da2efe")
 	)
 	(segment
+		(start 71.4375 51.91125)
+		(end 72.54875 51.91125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "3ac34045-2d1c-490e-9c34-d1f77e967806")
+	)
+	(segment
 		(start 46.1264 45.4152)
 		(end 46.1264 46.94027)
 		(width 0.2)
@@ -2682,6 +2774,14 @@
 		(layer "F.Cu")
 		(net 12)
 		(uuid "be50a9f6-05e8-4b69-bcdb-765f54dbbe19")
+	)
+	(segment
+		(start 72.54875 51.91125)
+		(end 74 50.46)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "daf13dda-4864-4733-bc8e-23eb526749ec")
 	)
 	(segment
 		(start 70.3326 44.9072)

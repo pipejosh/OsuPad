@@ -13,4 +13,11 @@ I made this project because I felt like it was time to jump from keyboard to thi
 ![case 3d model](IMG/caseModel.png) 
 
 
+### Schematic pcb
+![shcmeatic diagram pcb](IMG/pcb_schematic.png) 
 
+
+### BOM
+
+![components](IMG/price_components.png) 
+![pcb price](IMG/price_pcb.png) 
